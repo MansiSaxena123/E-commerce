@@ -1,4 +1,4 @@
-package Entity;
+package E_comm.Entity;
 
 public class User {
     private String username;
