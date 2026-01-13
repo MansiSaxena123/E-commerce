@@ -1,14 +1,14 @@
-package E_comm;
+package Shoppera;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ECommApplication {
+public class ShopperaApplication {
 
 	public static void main(String[] args) {
 
-        SpringApplication.run(ECommApplication.class, args);
+        SpringApplication.run(ShopperaApplication.class, args);
 	}
 
 }
