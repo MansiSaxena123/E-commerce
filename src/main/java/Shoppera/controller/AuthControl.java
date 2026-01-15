@@ -15,8 +15,8 @@ public class AuthControl {
     @Autowired
     AuthService authService;
 
-    @PostMapping("/login")
-    public ResponseEntity<LoginResponse> login(@RequestBody LoginRequest loginRequest){
-       return ResponseEntity.ok(authService.login(loginRequest));
-    }
+//    @PostMapping("/login")
+//    public ResponseEntity<LoginResponse> login(@RequestBody LoginRequest loginRequest){
+//       return ResponseEntity.ok(authService.login(loginRequest));
+//    }
 }

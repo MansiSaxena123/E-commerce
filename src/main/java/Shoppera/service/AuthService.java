@@ -10,14 +10,14 @@ import org.springframework.stereotype.Service;
 @Service
 public class AuthService {
 
-    @Autowired
-    AuthenticationManager authenticationManager;
+//    @Autowired
+//    AuthenticationManager authenticationManager;
 
 
-    public LoginResponse login(LoginRequest loginRequest) {
-        authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(loginRequest.getUsername(), loginRequest.getPassword())
-
-        );
-        return new LoginResponse();
-    }
+//    public LoginResponse login(LoginRequest loginRequest) {
+//        authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(loginRequest.getUsername(), loginRequest.getPassword())
+//
+//        );
+//        return new LoginResponse();
+//    }
 }
